@@ -1,0 +1,30 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+.venv/
+venv/
+.env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+tmp/
+
+# Staking log file
+staking.log
+
+# IDE and editor files
+.vscode/
+.idea/
+
+ranks.yaml
+ranks.yml
+config.yaml
+config.yml
