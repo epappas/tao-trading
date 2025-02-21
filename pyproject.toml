@@ -1,0 +1,11 @@
+[project]
+name = "tao-trading"
+version = "0.1.0"
+description = "Pptimize staking allocations across subnets using TAO"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["bittensor>=9.0.0"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

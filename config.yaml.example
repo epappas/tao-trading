@@ -1,7 +1,18 @@
-wallet: "you_wallet_name" # Replace with your wallet.
-amount_staked: 0.01 # AMount staked per block
-amount_unstaked: 0.001 # Amount unstaked per block
-validator: "5F4tQyWrhfGVcNhoqeiNsR6KjD4wMZ2kfhLj4oHYuyHbZAc3" # Stake to OTF.
+wallet: "you_wallet_name"
+amount_staked: 0.1 # Amount staked per cycle
+amount_unstaked: 0.001 # Amount unstaked per cycle
 ranks_file: "ranks.yaml"
 ranking_beta: 0.25 # How steep your ranking is
 drive: 5.0 # How aggressive you stake into the higher ranked subnets.
+rebalance_threshold: 0.01
+ranks:
+  - 1
+  - 3
+  - 4
+validators:
+  1:
+    - "5F4tQyWrhfGVcNhoqeiNsR6KjD4wMZ2kfhLj4oHYuyHbZAc3"
+  3:
+    - "5F4tQyWrhfGVcNhoqeiNsR6KjD4wMZ2kfhLj4oHYuyHbZAc3"
+  4:
+    - "5F4tQyWrhfGVcNhoqeiNsR6KjD4wMZ2kfhLj4oHYuyHbZAc3"
